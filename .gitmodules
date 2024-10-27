@@ -1,0 +1,3 @@
+[submodule "UniversalUI"]
+	path = UniversalUI
+	url = https://github.com/sebhalldesigns/UniversalUI.git
