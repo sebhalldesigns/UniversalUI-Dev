@@ -2,6 +2,8 @@
 #include <Application/UApplicationDelegate.hpp>
 
 #include <cstdio>
+#include <SDL2/SDL.h>
+
 
 class AppDelegate: public UApplicationDelegate
 {
@@ -19,7 +21,7 @@ public:
 };
 
 
-int main(int argc, char* argv[])
+int main(int argv, char** args)
 {   
     
     UApplication app;
